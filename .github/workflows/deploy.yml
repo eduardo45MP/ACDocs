@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /html_public/academiacaldas/
+          server-dir: /public_html/academiacaldas/
           exclude: |
             **/.git*
             **/.git*/**
